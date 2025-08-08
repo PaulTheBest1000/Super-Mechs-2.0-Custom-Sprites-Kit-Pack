@@ -72,6 +72,7 @@
           167,
           219
         ],
+		"expRes": 6,
         "push": 1,
         "range": [
           1,
@@ -96,7 +97,8 @@
       "stats": {
         "weight": 123,
         "health": 295,
-        "phyDmg": [209, 293],
+        "heaDmg": [209, 293],
+		"expResDmg": 5,
         "push": 1,
         "range": [1, 1],
         "walk": 1,
