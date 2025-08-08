@@ -8,19 +8,19 @@
   "items": [
     {
       "id": 1,
-      "name": "Interceptor",
-      "image": "%url%Interceptor.png", 
+      "name": "MPV Nightmare Hybrid Unit 001",
+      "image": "%url%0887E073-734D-4EB6-914F-AE5FAC2292CE.png", 
       "type": "TORSO",
-      "element": "PHYSICAL",
+      "element": "EXPLOSIVE",
       "stats": {
-        "weight": 309,
-        "health": 884,
+        "weight": 331,
+        "health": 1339,
         "eneCap": 200,
-        "eneReg": 56,
+        "eneReg": 111,
         "heaCap": 275,
-        "heaCol": 80,
-        "phyRes": 16,
-        "expRes": 22,
+        "heaCol": 130,
+        "phyRes": 22,
+        "expRes": 44,
         "eleRes": 22
       },
       "attachment": {
@@ -61,285 +61,21 @@
     },
     {
       "id": 2,
-      "name": "Archimonde",
-      "image": "%url%Archimonde.png",
-      "type": "TORSO",
-      "element": "PHYSICAL",
-      "stats": {
-        "weight": 363,
-        "health": 1152,
-        "eneCap": 284,
-        "eneReg": 76,
-        "heaCap": 284,
-        "heaCol": 76,
-        "phyRes": 22,
-        "expRes": 22,
-        "eleRes": 22
-      },
-      "attachment": {
-        "leg1": {
-          "x": 53,
-          "y": 214
-        },
-        "leg2": {
-          "x": 116,
-          "y": 214
-        },
-        "side1": {
-          "x": 49,
-          "y": 176
-        },
-        "side2": {
-          "x": 116,
-          "y": 176
-        },
-        "side3": {
-          "x": 45,
-          "y": 128
-        },
-        "side4": {
-          "x": 120,
-          "y": 128
-        },
-        "top1": {
-          "x": 41,
-          "y": 83
-        },
-        "top2": {
-          "x": 101,
-          "y": 83
-        }
-      },
-      "transform_range": "L-D"
-    },
-    {
-      "id": 3,
-      "name": "Avenger",
-      "image": "%url%Avenger.png",
-      "type": "TORSO",
-      "element": "PHYSICAL",
-      "stats": {
-        "weight": 350,
-        "health": 1306,
-        "eneCap": 200,
-        "eneReg": 64,
-        "heaCap": 150,
-        "heaCol": 48,
-        "phyRes": 16,
-        "expRes": 22,
-        "eleRes": 22
-      },
-      "attachment": {
-        "leg1": {
-          "x": 60,
-          "y": 168
-        },
-        "leg2": {
-          "x": 123,
-          "y": 168
-        },
-        "side1": {
-          "x": 65,
-          "y": 128
-        },
-        "side2": {
-          "x": 145,
-          "y": 128
-        },
-        "side3": {
-          "x": 58,
-          "y": 92
-        },
-        "side4": {
-          "x": 146,
-          "y": 92
-        },
-        "top1": {
-          "x": 57,
-          "y": 28
-        },
-        "top2": {
-          "x": 120,
-          "y": 28
-        }
-      },
-      "transform_range": "E-D"
-    },
-    {
-      "id": 4,
-      "name": "Hollow Spectral Armor",
-      "image": "%url%Hollow Spectral Armor.png",
-      "type": "TORSO",
-      "element": "PHYSICAL",
-      "stats": {
-        "weight": 370,
-        "health": 1678,
-        "eneCap": 239,
-        "eneReg": 80,
-        "heaCap": 239,
-        "heaCol": 80
-      },
-      "attachment": {
-        "leg1": {
-          "x": 63,
-          "y": 189
-        },
-        "leg2": {
-          "x": 125,
-          "y": 189
-        },
-        "side1": {
-          "x": 60,
-          "y": 148
-        },
-        "side2": {
-          "x": 140,
-          "y": 148
-        },
-        "side3": {
-          "x": 54,
-          "y": 80
-        },
-        "side4": {
-          "x": 142,
-          "y": 80
-        },
-        "top1": {
-          "x": 53,
-          "y": 24
-        },
-        "top2": {
-          "x": 107,
-          "y": 24
-        }
-      },
-      "transform_range": "L-D"
-    },
-    {
-      "id": 5,
-      "name": "Energy Free Armor",
-      "image": "%url%Energy Free Armor.png",
-      "type": "TORSO",
-      "element": "PHYSICAL",
-      "stats": {
-        "weight": 335,
-        "health": 1441,
-        "eneCap": 26,
-        "eneReg": 8,
-        "heaCap": 235,
-        "heaCol": 80,
-        "phyRes": 24,
-        "expRes": 24,
-        "eleRes": 24
-      },
-      "attachment": {
-        "leg1": {
-          "x": 83,
-          "y": 175
-        },
-        "leg2": {
-          "x": 145,
-          "y": 175
-        },
-        "side1": {
-          "x": 70,
-          "y": 155
-        },
-        "side2": {
-          "x": 150,
-          "y": 155
-        },
-        "side3": {
-          "x": 70,
-          "y": 105
-        },
-        "side4": {
-          "x": 150,
-          "y": 105
-        },
-        "top1": {
-          "x": 63,
-          "y": 24
-        },
-        "top2": {
-          "x": 147,
-          "y": 24
-        }
-      },
-      "transform_range": "L-D"
-    },
-    {
-      "id": 6,
-      "name": "Battery Armor",
-      "image": "%url%Battery Armor.png",
-      "width": 222,
-      "height": 226,
-      "type": "TORSO",
-      "element": "PHYSICAL",
-      "stats": {
-        "weight": 360,
-        "health": 1284,
-        "eneCap": 374,
-        "eneReg": 24,
-        "heaCap": 343,
-        "heaCol": 24,
-        "phyRes": 14,
-        "expRes": 14,
-        "eleRes": 14
-      },
-      "attachment": {
-        "leg1": {
-          "x": 71,
-          "y": 187
-        },
-        "leg2": {
-          "x": 125,
-          "y": 187
-        },
-        "side1": {
-          "x": 57,
-          "y": 146
-        },
-        "side2": {
-          "x": 145,
-          "y": 146
-        },
-        "side3": {
-          "x": 66,
-          "y": 83
-        },
-        "side4": {
-          "x": 132,
-          "y": 83
-        },
-        "top1": {
-          "x": 50,
-          "y": 16
-        },
-        "top2": {
-          "x": 97,
-          "y": 16
-        }
-      },
-      "transform_range": "E-D"
-    },
-    {
-      "id": 7,
-      "name": "Iron Boots",
+      "name": "Scorching Lava Feet",
       "image": "%url%Iron Boots.png",
       "type": "LEGS",
-      "element": "PHYSICAL",
+      "element": "EXPLOSIVE",
       "stats": {
         "weight": 138,
         "health": 491,
-        "phyDmg": [
+        "heaDmg": [
           167,
           219
         ],
         "push": 1,
         "range": [
           1,
-          1
+          2
         ],
         "walk": 1,
         "jump": 2
@@ -352,46 +88,19 @@
       "tags": ["melee"]
     },
     {
-      "id": 8,
-      "name": "Rolling Beasts",
-      "image": "%url%Rolling Beasts.png",
-      "type": "LEGS",
-      "element": "PHYSICAL",
-      "stats": {
-        "weight": 134,
-        "health": 476,
-        "phyDmg": [
-          169,
-          255
-        ],
-        "push": 1,
-        "range": [
-          1,
-          1
-        ],
-        "walk": 3
-      },
-      "attachment": {
-        "x": 111,
-        "y": 22
-      },
-      "transform_range": "L-D",
-      "tags": ["melee"]
-    },
-    {
-      "id": 9,
-      "name": "Grave Diggers",
+      "id": 3,
+      "name": "Massive Scorching Feet",
       "image": "%url%Grave Diggers.png",
       "type": "LEGS",
-      "element": "PHYSICAL",
+      "element": "EXPLOSIVE",
       "stats": {
         "weight": 123,
         "health": 295,
         "phyDmg": [209, 293],
-        "push": 2,
+        "push": 1,
         "range": [1, 1],
         "walk": 1,
-        "jump": 2
+        "jump": 3
       },
       "attachment": { "x": 57, "y": 22 },
       "transform_range": "R-D",
