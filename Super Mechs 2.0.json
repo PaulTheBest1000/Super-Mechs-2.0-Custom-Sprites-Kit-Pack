@@ -26,11 +26,11 @@
       "attachment": {
         "leg1": {
           "x": 558,
-          "y": -189
+          "y": 89
         },
         "leg2": {
           "x": 634,
-          "y": -189
+          "y": 89
         },
         "side1": {
           "x": 64,
@@ -83,7 +83,7 @@
       },
       "attachment": {
         "x": 60,
-        "y": 13
+        "y": 113
       },
       "transform_range": "C-D",
       "tags": ["melee"]
