@@ -9,7 +9,7 @@
     {
       "id": 1,
       "name": "MPV Nightmare Hybrid Unit 001",
-      "image": "%url%0887E073-734D-4EB6-914F-AE5FAC2292CE.png", 
+      "image": "%url%Picsart_25-08-02_17-44-19-484.png", 
       "type": "TORSO",
       "element": "EXPLOSIVE",
       "stats": {
@@ -62,7 +62,7 @@
     {
       "id": 2,
       "name": "Scorching Lava Feet",
-      "image": "%url%Iron Boots.png",
+      "image": "%url%94EF7DC9-EE7C-4196-A37F-5E722D788EE0.png",
       "type": "LEGS",
       "element": "EXPLOSIVE",
       "stats": {
@@ -90,7 +90,7 @@
     {
       "id": 3,
       "name": "Massive Scorching Feet",
-      "image": "%url%Grave Diggers.png",
+      "image": "%url%C79A2264-7D33-4FB4-9C38-CC9EB59878F0.png",
       "type": "LEGS",
       "element": "EXPLOSIVE",
       "stats": {
