@@ -1,0 +1,735 @@
+{
+  "config": {
+    "key": "@PaulTheBest1000",
+  "name": "SuperMechs 2.0 Custom Items Pack (Prototype)",
+    "base_url": "https://raw.githubusercontent.com/PaulTheBest1000/Super-Mechs-2.0-Custom-Sprites-Kit-Pack/master/",
+    "description": "V1.0 a new Super Mechs beginning (it makes me wanna moan nghhhh mmm ahhh 😩😫 jk)"
+  },
+  "items": [
+    {
+      "id": 1,
+      "name": "MPV Nightmare Hybrid Unit 001",
+      "image": "%url%Picsart_25-08-09_10-38-49-646.png", 
+      "type": "TORSO",
+      "element": "EXPLOSIVE",
+      "stats": {
+        "weight": 331,
+        "health": 1143,
+        "eneCap": 200,
+        "eneReg": 111,
+        "heaCap": 275,
+        "heaCol": 130,
+        "phyRes": 22,
+        "expRes": 44,
+        "eleRes": 22
+      },
+      "attachment": {
+        "leg1": {
+          "x": 808,
+          "y": 589
+        },
+        "leg2": {
+          "x": 884,
+          "y": 589
+        },
+        "side1": {
+          "x": 64,
+          "y": 141
+        },
+        "side2": {
+          "x": 133,
+          "y": 141
+        },
+        "side3": {
+          "x": 60,
+          "y": 89
+        },
+        "side4": {
+          "x": 137,
+          "y": 89
+        },
+        "top1": {
+          "x": 59,
+          "y": 44
+        },
+        "top2": {
+          "x": 122,
+          "y": 44
+        }
+      },
+      "transform_range": "C-D"
+    },
+    {
+      "id": 2,
+      "name": "Scorching Lava Feet",
+      "image": "%url%94EF7DC9-EE7C-4196-A37F-5E722D788EE0.png",
+      "type": "LEGS",
+      "element": "EXPLOSIVE",
+      "stats": {
+        "weight": 138,
+        "health": 491,
+        "heaDmg": [
+          167,
+          219
+        ],
+		"expRes": 6,
+        "push": 1,
+        "range": [
+          1,
+          1
+        ],
+        "walk": 1,
+        "jump": 2
+      },
+      "attachment": {
+        "x": 60,
+        "y": 113
+      },
+      "transform_range": "C-D",
+      "tags": ["melee"]
+    },
+    {
+      "id": 3,
+      "name": "Massive Scorching Feet",
+      "image": "%url%C79A2264-7D33-4FB4-9C38-CC9EB59878F0.png",
+      "type": "LEGS",
+      "element": "EXPLOSIVE",
+      "stats": {
+        "weight": 123,
+        "health": 295,
+        "heaDmg": [209, 293],
+		"expResDmg": 5,
+        "push": 2,
+        "range": [1, 2],
+        "walk": 2,
+        "jump": 3
+      },
+      "attachment": { "x": 57, "y": 22 },
+      "transform_range": "R-D",
+      "tags": ["melee"]
+    },
+    {
+      "id": 11,
+      "name": "BackBreaker",
+      "image": "%url%BackBreaker.png",
+      "type": "SIDE_WEAPON",
+      "element": "PHYSICAL",
+      "stats": {
+        "weight": 44,
+        "phyDmg": [
+          234,
+          419
+        ],
+        "heaColDmg": 8,
+        "eneRegDmg": 8,
+        "push": 1,
+        "range": [
+          1,
+          1
+        ],
+        "eneCost": 31,
+        "heaCost": 31
+      },
+      "attachment": {
+        "x": 34,
+        "y": 55
+      },
+      "transform_range": "E-D",
+      "tags": ["melee"]
+    },
+    {
+      "id": 12,
+      "name": "War Hammer",
+      "image": "%url%War Hammer.png",
+      "type": "SIDE_WEAPON",
+      "element": "PHYSICAL",
+      "stats": {
+        "weight": 58,
+        "phyDmg": [
+          261,
+          439
+        ],
+        "heaCapDmg": 24,
+        "eneCapDmg": 24,
+        "push": 3,
+        "range": [
+          1,
+          1
+        ],
+        "eneCost": 31,
+        "heaCost": 31
+      },
+      "attachment": {
+        "x": 33,
+        "y": 63
+      },
+      "transform_range": "E-D",
+      "tags": ["melee"]
+    },
+    {
+      "id": 13,
+      "name": "SeraphBlade",
+      "image": "%url%SeraphBlade.png",
+      "type": "SIDE_WEAPON",
+      "element": "PHYSICAL",
+      "stats": {
+        "weight": 49,
+        "phyDmg": [
+          251,
+          403
+        ],
+        "phyResDmg": 12,
+        "range": [
+          1,
+          2
+        ],
+        "advance": 1,
+        "eneCost": 13,
+        "heaCost": 50
+      },
+      "attachment": {
+        "x": 38,
+        "y": 71
+      },
+      "transform_range": "L-D",
+      "tags": ["melee"]
+    },
+    {
+      "id": 17,
+      "name": "Advanced Repulser",
+      "image": "%url%Advanced Repulser.png",
+      "type": "SIDE_WEAPON",
+      "element": "PHYSICAL",
+      "attachment": {
+        "x": 60,
+        "y": 57
+      },
+      "stats": {
+        "weight": 18,
+        "phyDmg": [
+          77,
+          101
+        ],
+        "push": 4,
+        "range": [
+          2,
+          4
+        ],
+        "heaCost": 62,
+        "uses": 2
+      },
+      "transform_range": "L-D"
+    },
+    {
+      "id": 18,
+      "name": "Purifier",
+      "image": "%url%Purifier.png",
+      "type": "SIDE_WEAPON",
+      "element": "PHYSICAL",
+      "stats": {
+        "weight": 25,
+        "phyDmg": [
+          194,
+          254
+        ],
+        "range": [
+          2,
+          4
+        ],
+        "uses": 2
+      },
+      "attachment": {
+        "x": 55,
+        "y": 41
+      },
+      "transform_range": "L-D"
+    },
+    {
+      "id": 21,
+      "name": "Terror Cry",
+      "image": "%url%Terror Cry.png",
+      "type": "SIDE_WEAPON",
+      "element": "PHYSICAL",
+      "stats": {
+        "weight": 46,
+        "phyDmg": [
+          248,
+          368
+        ],
+        "push": 1,
+        "range": [
+          2,
+          4
+        ],
+        "uses": 3,
+        "eneCost": 25,
+        "heaCost": 25
+      },
+      "attachment": {
+        "x": 36,
+        "y": 33
+      },
+      "transform_range": "E-D"
+    },
+    {
+      "id": 23,
+      "name": "Rock Recoiler",
+      "image": "%url%Rock Recoiler.png",
+      "type": "SIDE_WEAPON",
+      "element": "PHYSICAL",
+      "stats": {
+        "weight": 65,
+        "phyDmg": [
+          218,
+          435
+        ],
+        "phyResDmg": 10,
+        "push": 1,
+        "recoil": 1,
+        "range": [
+          1,
+          2
+        ],
+        "uses": 3,
+        "eneCost": 25,
+        "heaCost": 38
+      },
+      "attachment": {
+        "x": 60,
+        "y": 35
+      },
+      "transform_range": "E-D"
+    },
+    {
+      "id": 24,
+      "name": "Ejection Blast",
+      "image": "%url%Ejection Blast.png",
+      "type": "SIDE_WEAPON",
+      "element": "PHYSICAL",
+      "stats": {
+        "weight": 34,
+        "phyDmg": [
+          241,
+          431
+        ],
+        "phyResDmg": 5,
+        "push": 1,
+        "retreat": 2,
+        "range": [
+          3,
+          6
+        ],
+        "uses": 2,
+        "eneCost": 31,
+        "heaCost": 31
+      },
+      "attachment": {
+        "x": 41,
+        "y": 39
+      },
+      "transform_range": "L-D"
+    },
+    {
+      "id": 25,
+      "name": "Sacrifice Cannon",
+      "image": "%url%Sacrifice Cannon.png",
+      "type": "SIDE_WEAPON",
+      "element": "PHYSICAL",
+      "stats": {
+        "weight": 24,
+        "phyDmg": [
+          214,
+          520
+        ],
+        "phyResDmg": 12,
+        "range": [
+          2,
+          4
+        ],
+        "push": 1,
+        "uses": 1,
+        "backfire": 123,
+        "eneCost": 31,
+        "heaCost": 31
+      },
+      "attachment": {
+        "x": 47,
+        "y": 47
+      },
+      "transform_range": "E-D"
+    },
+    {
+      "id": 26,
+      "name": "Perimeter Protector",
+      "image": "%url%Perimeter Protector.png",
+      "type": "SIDE_WEAPON",
+      "element": "PHYSICAL",
+      "stats": {
+        "weight": 31,
+        "phyDmg": [
+          161,
+          289
+        ],
+        "phyResDmg": 5,
+        "range": [
+          1,
+          2
+        ],
+        "retreat": 6,
+        "uses": 2,
+        "heaCost": 38
+      },
+      "attachment": {
+        "x": 53,
+        "y": 26
+      },
+      "transform_range": "L-D"
+    },
+    {
+      "id": 27,
+      "name": "Dark Eagle",
+      "image": "%url%Dark Eagle.png",
+      "type": "SIDE_WEAPON",
+      "element": "PHYSICAL",
+      "stats": {
+        "weight": 60,
+        "phyDmg": [
+          191,
+          482
+        ],
+        "phyResDmg": 10,
+        "range": [
+          2,
+          4
+        ],
+        "push": 1,
+        "recoil": 1,
+        "uses": 3,
+        "eneCost": 25,
+        "heaCost": 38
+      },
+      "attachment": {
+        "x": 64,
+        "y": 32
+      },
+      "transform_range": "L-D"
+    },
+    {
+      "id": 28,
+      "name": "Night Eagle",
+      "image": "%url%Night Eagle.png",
+      "type": "TOP_WEAPON",
+      "element": "PHYSICAL",
+      "stats": {
+        "weight": 46,
+        "phyDmg": [
+          214,
+          345
+        ],
+        "pull": 1,
+        "range": [
+          3,
+          6
+        ],
+        "uses": 3,
+        "eneCost": 25,
+        "heaCost": 25
+      },
+      "attachment": {
+        "x": 42,
+        "y": 50
+      },
+      "transform_range": "E-D"
+    },
+    {
+      "id": 29,
+      "name": "Spartan Carnage",
+      "image": "%url%Spartan Carnage.png",
+      "type": "TOP_WEAPON",
+      "element": "PHYSICAL",
+      "stats": {
+        "weight": 51,
+        "phyDmg": [
+          238,
+          408
+        ],
+        "phyResDmg": 15,
+        "range": [
+          3,
+          6
+        ],
+        "uses": 3,
+        "eneCost": 31,
+        "heaCost": 31
+      },
+      "attachment": {
+        "x": 50,
+        "y": 44
+      },
+      "transform_range": "L-D"
+    },
+    {
+      "id": 30,
+      "name": "Reckless Beam",
+      "image": "%url%Reckless Beam.png",
+      "type": "TOP_WEAPON",
+      "element": "PHYSICAL",
+      "stats": {
+        "weight": 35,
+        "phyDmg": [
+          241,
+          364
+        ],
+        "range": [
+          4,
+          8
+        ],
+        "eneCost": 25,
+        "heaCost": 25
+      },
+      "attachment": {
+        "x": 48,
+        "y": 56
+      },
+      "transform_range": "E-D"
+    },
+    {
+      "id": 31,
+      "name": "Desert Fury",
+      "image": "%url%Desert Fury.png",
+      "type": "TOP_WEAPON",
+      "element": "PHYSICAL",
+      "stats": {
+        "weight": 29,
+        "phyDmg": [
+          162,
+          236
+        ],
+        "phyResDmg": 23,
+        "range": [
+          4,
+          8
+        ],
+        "uses": 2,
+        "eneCost": 16,
+        "heaCost": 16
+      },
+      "attachment": {
+        "x": 37,
+        "y": 34
+      },
+      "transform_range": "L-D"
+    },
+    {
+      "id": 32,
+      "name": "Mighty Cannon",
+      "image": "%url%Mighty Cannon.png",
+      "type": "TOP_WEAPON",
+      "element": "PHYSICAL",
+      "stats": {
+        "weight": 55,
+        "phyDmg": [
+          252,
+          431
+        ],
+        "pull": 1,
+        "range": [
+          4,
+          8
+        ],
+        "eneCost": 38,
+        "heaCost": 38
+      },
+      "attachment": {
+        "x": 56,
+        "y": 35
+      },
+      "transform_range": "L-D"
+    },
+    {
+      "id": 33,
+      "name": "Falcon",
+      "image": "%url%Falcon.png",
+      "type": "TOP_WEAPON",
+      "element": "PHYSICAL",
+      "stats": {
+        "weight": 19,
+        "phyDmg": [
+          629,
+          1052
+        ],
+        "range": [
+          8,
+          8
+        ],
+        "uses": 1,
+        "eneCost": 22,
+        "heaCost": 22
+      },
+      "attachment": {
+        "x": 60,
+        "y": 52
+      },
+      "transform_range": "L-D"
+    },
+    {
+      "id": 34,
+      "name": "Frantic Brute",
+      "image": "%url%Frantic Brute.png",
+      "type": "TOP_WEAPON",
+      "element": "PHYSICAL",
+      "stats": {
+        "weight": 50,
+        "phyDmg": [205, 515],
+        "phyResDmg": 12,
+        "range": [3, 6],
+        "uses": 2,
+        "eneCost": 30,
+        "heaCost": 70
+      },
+      "attachment": {
+        "x": 44,
+        "y": 27
+      },
+      "transform_range": "E-D"
+    },
+    {
+      "id": 35,
+      "name": "Distance Shredder",
+      "image": "%url%Distance Shredder.png",
+      "type": "TOP_WEAPON",
+      "element": "PHYSICAL",
+      "stats": {
+        "weight": 42,
+        "phyDmg": [
+          241,
+          431
+        ],
+        "phyResDmg": 5,
+        "push": 1,
+        "advance": 3,
+        "range": [
+          4,
+          8
+        ],
+        "uses": 2,
+        "heaCost": 100
+      },
+      "attachment": {
+        "x": 54,
+        "y": 38
+      },
+      "transform_range": "L-D"
+    },
+    {
+      "id": 37,
+      "name": "Void",
+      "image": "%url%Void.png",
+      "type": "DRONE",
+      "element": "PHYSICAL",
+      "stats": {
+        "weight": 29,
+        "phyDmg": [
+          147,
+          192
+        ],
+        "phyResDmg": 6,
+        "eneCost": 16,
+        "heaCost": 16
+      },
+      "transform_range": "E-D"
+    },
+    {
+      "id": 38,
+      "name": "HurlBat",
+      "image": "%url%HurlBat.png",
+      "type": "DRONE",
+      "element": "PHYSICAL",
+      "stats": {
+        "weight": 28,
+        "phyDmg": [
+          139,
+          201
+        ],
+        "heaCapDmg": 6,
+        "eneCapDmg": 6,
+        "eneCost": 16,
+        "heaCost": 16
+      },
+      "transform_range": "E-D"
+    },
+    {
+      "id": 40,
+      "name": "DustMaker",
+      "image": "%url%DustMaker.png",
+      "type": "DRONE",
+      "element": "PHYSICAL",
+      "stats": {
+        "weight": 29,
+        "phyDmg": [
+          126,
+          255
+        ],
+        "heaColDmg": 4,
+        "eneRegDmg": 4,
+        "eneCost": 16,
+        "heaCost": 16
+      },
+      "transform_range": "L-D"
+    },
+    {
+      "id": 41,
+      "name": "Backstabber",
+      "image": "%url%Backstabber.png",
+      "type": "DRONE",
+      "element": "PHYSICAL",
+      "stats": {
+        "weight": 51,
+        "phyDmg": [
+          172,
+          278
+        ],
+        "pull": 1,
+        "eneCost": 16,
+        "heaCost": 16
+      },
+      "transform_range": "L-D"
+    },
+    {
+      "id": 43,
+      "name": "Solar Torch",
+      "image": "%url%Solar Torch.png",
+      "type": "DRONE",
+      "element": "PHYSICAL",
+      "stats": {
+        "weight": 40,
+        "phyDmg": [
+          204,
+          368
+        ],
+        "phyResDmg": 9,
+        "range": [
+          3,
+          6
+        ],
+        "eneCost": 25,
+        "heaCost": 25
+      },
+      "transform_range": "L-D"
+    },
+    {
+      "id": 50,
+      "name": "Maximum Protector",
+      "image": "%url%Maximum Protector.png",
+      "type": "MODULE",
+      "element": "COMBINED",
+      "stats": {
+        "weight": 51,
+        "phyRes": 41,
+        "expRes": 41,
+        "eleRes": 41
+      },
+      "transform_range": "L-D"
+    },
+  ]
+}
