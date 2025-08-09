@@ -26,11 +26,11 @@
       "attachment": {
         "leg1": {
           "x": 808,
-          "y": 589
+          "y": 1089
         },
         "leg2": {
           "x": 884,
-          "y": 589
+          "y": 1089
         },
         "side1": {
           "x": 64,
@@ -57,7 +57,7 @@
           "y": 44
         }
       },
-      "transform_range": "C-D"
+      "transform_range": "E-D"
     },
     {
       "id": 2,
@@ -85,7 +85,7 @@
         "x": 60,
         "y": 113
       },
-      "transform_range": "C-D",
+      "transform_range": "R-D",
       "tags": ["melee"]
     },
     {
@@ -109,62 +109,30 @@
       "tags": ["melee"]
     },
     {
-      "id": 11,
-      "name": "BackBreaker",
-      "image": "%url%BackBreaker.png",
+      "id": 4,
+      "name": "Flashinator (Heat Mode)",
+      "image": "%url%BD530496-0C1A-4B51-87A1-7A615E243213.png",
       "type": "SIDE_WEAPON",
-      "element": "PHYSICAL",
+      "element": "EXPLOSIVE",
       "stats": {
-        "weight": 44,
-        "phyDmg": [
-          234,
-          419
-        ],
-        "heaColDmg": 8,
-        "eneRegDmg": 8,
-        "push": 1,
-        "range": [
-          1,
-          1
-        ],
-        "eneCost": 31,
-        "heaCost": 31
-      },
-      "attachment": {
-        "x": 34,
-        "y": 55
-      },
-      "transform_range": "E-D",
-      "tags": ["melee"]
-    },
-    {
-      "id": 12,
-      "name": "War Hammer",
-      "image": "%url%War Hammer.png",
-      "type": "SIDE_WEAPON",
-      "element": "PHYSICAL",
-      "stats": {
-        "weight": 58,
-        "phyDmg": [
-          261,
-          439
+        "weight": 47,
+        "heaDmg": [
+          131,
+          259
         ],
         "heaCapDmg": 24,
-        "eneCapDmg": 24,
-        "push": 3,
+        "heaColDmg": 24,
         "range": [
-          1,
-          1
+          3,
+          6
         ],
-        "eneCost": 31,
-        "heaCost": 31
+        "eneCost": 90
       },
       "attachment": {
         "x": 33,
         "y": 63
       },
-      "transform_range": "E-D",
-      "tags": ["melee"]
+      "transform_range": "R-D"
     },
     {
       "id": 13,
