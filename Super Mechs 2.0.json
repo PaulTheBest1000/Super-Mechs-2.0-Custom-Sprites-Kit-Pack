@@ -9,12 +9,12 @@
     {
       "id": 1,
       "name": "MPV Nightmare Hybrid Unit 001",
-      "image": "%url%Picsart_25-08-02_17-44-19-484.png", 
+      "image": "%url%Picsart_25-08-09_10-27-55-548.png", 
       "type": "TORSO",
       "element": "EXPLOSIVE",
       "stats": {
         "weight": 331,
-        "health": 1339,
+        "health": 1143,
         "eneCap": 200,
         "eneReg": 111,
         "heaCap": 275,
