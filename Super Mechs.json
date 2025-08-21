@@ -111,7 +111,7 @@
     {
       "id": 4,
       "name": "Flashinator (Heat Mode)",
-      "image": "%url%BD530496-0C1A-4B51-87A1-7A615E243213.png",
+      "image": "%url%Picsart_25-08-21_19-02-12-986.png",
       "type": "SIDE_WEAPON",
       "element": "EXPLOSIVE",
       "stats": {
@@ -121,7 +121,7 @@
           259
         ],
         "heaCapDmg": 24,
-        "heaColDmg": 24,
+        "heaColDmg": 12,
         "range": [
           3,
           6
